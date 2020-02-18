@@ -1,0 +1,41 @@
+
+#contactSection {
+    background-image: url('../../assets/images/bridge.png');
+    background-size: cover;
+    height: 940px;
+}
+
+
+.contact-left{
+    padding-top: 150px;
+    padding-left: 50px;
+
+
+}
+.contact-left h1 {
+    font-family:  'rust';
+    color:rgba(255, 255, 255, 0.877);
+    text-shadow: 2px 2px 1px #000;
+    font-size: 400%;
+    padding-right: 100px;
+}
+.contact-left p {
+    font-family:  'Inknut Antiqua', serif;
+    color:white;
+    font-size: 150%;
+    text-shadow: 2px 2px 1px #000;
+}
+@media screen and (max-width: 768px){
+    #contactSection{
+    background-image: url('../../assets/images/bridge.png');
+    height: 50%;
+    width: 170vw ;
+   
+    }
+    .contact-right{
+        margin-top:-50px;
+        display: flex;
+        justify-content: center;
+    }
+   
+}

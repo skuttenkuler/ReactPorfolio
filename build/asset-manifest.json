@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "//github.com/skuttenkuler/ReactPortfolio/tree/master/portfolio/static/css/main.6316c860.chunk.css",
+    "main.js": "//github.com/skuttenkuler/ReactPortfolio/tree/master/portfolio/static/js/main.7b857eef.chunk.js",
+    "main.js.map": "//github.com/skuttenkuler/ReactPortfolio/tree/master/portfolio/static/js/main.7b857eef.chunk.js.map",
+    "runtime-main.js": "//github.com/skuttenkuler/ReactPortfolio/tree/master/portfolio/static/js/runtime-main.3855e0b7.js",
+    "runtime-main.js.map": "//github.com/skuttenkuler/ReactPortfolio/tree/master/portfolio/static/js/runtime-main.3855e0b7.js.map",
+    "static/js/2.c83f3479.chunk.js": "//github.com/skuttenkuler/ReactPortfolio/tree/master/portfolio/static/js/2.c83f3479.chunk.js",
+    "static/js/2.c83f3479.chunk.js.map": "//github.com/skuttenkuler/ReactPortfolio/tree/master/portfolio/static/js/2.c83f3479.chunk.js.map",
+    "index.html": "//github.com/skuttenkuler/ReactPortfolio/tree/master/portfolio/index.html",
+    "precache-manifest.d3d36df92d03a26d7545313cfb1f8cfa.js": "//github.com/skuttenkuler/ReactPortfolio/tree/master/portfolio/precache-manifest.d3d36df92d03a26d7545313cfb1f8cfa.js",
+    "service-worker.js": "//github.com/skuttenkuler/ReactPortfolio/tree/master/portfolio/service-worker.js",
+    "static/css/main.6316c860.chunk.css.map": "//github.com/skuttenkuler/ReactPortfolio/tree/master/portfolio/static/css/main.6316c860.chunk.css.map",
+    "static/js/2.c83f3479.chunk.js.LICENSE.txt": "//github.com/skuttenkuler/ReactPortfolio/tree/master/portfolio/static/js/2.c83f3479.chunk.js.LICENSE.txt",
+    "static/media/75-feather-1.png": "//github.com/skuttenkuler/ReactPortfolio/tree/master/portfolio/static/media/75-feather-1.f9575dd6.png",
+    "static/media/Projects.css": "//github.com/skuttenkuler/ReactPortfolio/tree/master/portfolio/static/media/sun.6e3606e3.jpg",
+    "static/media/Contact.css": "//github.com/skuttenkuler/ReactPortfolio/tree/master/portfolio/static/media/bridge.50858175.png",
+    "static/media/About.css": "//github.com/skuttenkuler/ReactPortfolio/tree/master/portfolio/static/media/cosmos-dark.2bd057db.jpg",
+    "static/media/Welcome.css": "//github.com/skuttenkuler/ReactPortfolio/tree/master/portfolio/static/media/rustico-regular.d7894f99.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3855e0b7.js",
+    "static/js/2.c83f3479.chunk.js",
+    "static/css/main.6316c860.chunk.css",
+    "static/js/main.7b857eef.chunk.js"
+  ]
+}
