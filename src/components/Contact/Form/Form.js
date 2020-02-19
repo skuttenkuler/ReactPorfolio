@@ -28,8 +28,8 @@ class Form extends Component {
   
     render() {
       return (
-        <div class="col-md-6 col-sm-6">
-        <form className="form"id="fs-frm" name="contact" accept-charset="utf-8" onSubmit={this.handleSubmit}>
+        <div className="col-md-6 col-sm-6">
+        <form className="form" id="fs-frm" name="contact" onSubmit={this.handleSubmit}>
           <div className="form-group">
           <label for="full-name">
             Name:
@@ -44,7 +44,7 @@ class Form extends Component {
           </div>
           <div className="form-group">
           <label for="message">
-            Meesage:
+            Message:
             <input type="text" value={this.state.message} onChange={this.handleChange} />
           </label>
           </div>

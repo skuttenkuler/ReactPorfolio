@@ -1,18 +1,26 @@
 .form {
 
     width: 500px;
-    padding-top: 100px;
-
+    padding-top: 80px;
+    padding-bottom:15px;
+    background-color: rgba(224, 255, 255, 0.2);
+    border-radius: 15px;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
 }
 .contact-right{
     margin-top:250px;
+    
 }
 
-.contact-right h4{
+label{
     font-family: 'Inknut Antiqua', serif;
     color: whitesmoke;
     text-shadow: 2px 2px 1px #000;
     font-size: 125%;
+    padding-left:20px;
+    
+    
 }
 .contact_form_button {
     margin-left: 200px;
@@ -26,16 +34,7 @@
 }
 
 @media screen and (max-width: 768px){
-    #contactSection{
-    background-image: url('../../assets/images/bridge.png');
-    height: 50%;
-    width: 170vw ;
-   
-    }
-    .contact-right{
-        margin-top:-50px;
-        display: flex;
-        justify-content: center;
-    }
-   
+   .form{
+       margin-top: 100px;
+   }
 }

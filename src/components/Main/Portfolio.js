@@ -12,7 +12,7 @@ class Portfolio extends Component{
     }
     toggleHandler = () => {
         console.log("clicked")
-        this.setState((prevState) => {
+        this.setState(prevState => {
             return {sideDrawer: !prevState.sideDrawer}
         })
     };
@@ -26,7 +26,7 @@ class Portfolio extends Component{
         }
     return(
         <div style={{height: "100%"}}>
-        <Navbar clickHandler={this.drawerClick}/>
+        <Navbar toggleHandler={this.drawerClick}/>
         <SideDrawer show={this.state.sideDrawer}/>
         {backD}
              <About/>

@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Resume from '../PDF/pdfButton'
 import './SideDrawer.css'
 
 export default function SideDrawer(props){
@@ -12,7 +12,8 @@ export default function SideDrawer(props){
                 <ul>
                     <li><a href="/portfolio" >About</a></li>
                     <li><a href="/projects" >Projects</a></li>
-                    <li><a href="/contact" >Contact</a></li>                
+                    <li><a href="/contact" >Contact</a></li>   
+                    <li><Resume/></li>             
                 </ul>
             </nav>
     )
