@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/ReactPortfolio/static/css/main.6b8c2368.chunk.css",
-    "main.js": "/ReactPortfolio/static/js/main.164904e7.chunk.js",
-    "main.js.map": "/ReactPortfolio/static/js/main.164904e7.chunk.js.map",
-    "runtime-main.js": "/ReactPortfolio/static/js/runtime-main.a4f54e20.js",
-    "runtime-main.js.map": "/ReactPortfolio/static/js/runtime-main.a4f54e20.js.map",
-    "static/js/2.bbc22f30.chunk.js": "/ReactPortfolio/static/js/2.bbc22f30.chunk.js",
-    "static/js/2.bbc22f30.chunk.js.map": "/ReactPortfolio/static/js/2.bbc22f30.chunk.js.map",
-    "index.html": "/ReactPortfolio/index.html",
-    "precache-manifest.8eb0fa0b21ec1007b19efd3378519b8f.js": "/ReactPortfolio/precache-manifest.8eb0fa0b21ec1007b19efd3378519b8f.js",
-    "service-worker.js": "/ReactPortfolio/service-worker.js",
-    "static/css/main.6b8c2368.chunk.css.map": "/ReactPortfolio/static/css/main.6b8c2368.chunk.css.map",
-    "static/js/2.bbc22f30.chunk.js.LICENSE.txt": "/ReactPortfolio/static/js/2.bbc22f30.chunk.js.LICENSE.txt",
-    "static/media/75-feather-1.png": "/ReactPortfolio/static/media/75-feather-1.f9575dd6.png",
-    "static/media/Projects.css": "/ReactPortfolio/static/media/sun.6e3606e3.jpg",
-    "static/media/Contact.css": "/ReactPortfolio/static/media/bridge.50858175.png",
-    "static/media/About.css": "/ReactPortfolio/static/media/cosmos-dark.2bd057db.jpg",
-    "static/media/cv-sk.pdf": "/ReactPortfolio/static/media/cv-sk.065b3630.pdf",
-    "static/media/Welcome.css": "/ReactPortfolio/static/media/rustico-regular.d7894f99.woff"
+    "main.css": "./static/css/main.8c95a0bb.chunk.css",
+    "main.js": "./static/js/main.164904e7.chunk.js",
+    "main.js.map": "./static/js/main.164904e7.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.66ff8e1a.js",
+    "runtime-main.js.map": "./static/js/runtime-main.66ff8e1a.js.map",
+    "static/js/2.bbc22f30.chunk.js": "./static/js/2.bbc22f30.chunk.js",
+    "static/js/2.bbc22f30.chunk.js.map": "./static/js/2.bbc22f30.chunk.js.map",
+    "index.html": "./index.html",
+    "precache-manifest.eeeee12cce9d62e641a999f8a16957f4.js": "./precache-manifest.eeeee12cce9d62e641a999f8a16957f4.js",
+    "service-worker.js": "./service-worker.js",
+    "static/css/main.8c95a0bb.chunk.css.map": "./static/css/main.8c95a0bb.chunk.css.map",
+    "static/js/2.bbc22f30.chunk.js.LICENSE.txt": "./static/js/2.bbc22f30.chunk.js.LICENSE.txt",
+    "static/media/75-feather-1.png": "./static/media/75-feather-1.f9575dd6.png",
+    "static/media/Projects.css": "./static/media/sun.6e3606e3.jpg",
+    "static/media/Contact.css": "./static/media/bridge.50858175.png",
+    "static/media/About.css": "./static/media/cosmos-dark.2bd057db.jpg",
+    "static/media/cv-sk.pdf": "./static/media/cv-sk.065b3630.pdf",
+    "static/media/Welcome.css": "./static/media/rustico-regular.d7894f99.woff"
   },
   "entrypoints": [
-    "static/js/runtime-main.a4f54e20.js",
+    "static/js/runtime-main.66ff8e1a.js",
     "static/js/2.bbc22f30.chunk.js",
-    "static/css/main.6b8c2368.chunk.css",
+    "static/css/main.8c95a0bb.chunk.css",
     "static/js/main.164904e7.chunk.js"
   ]
 }
