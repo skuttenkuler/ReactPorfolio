@@ -10,9 +10,9 @@ export default function SideDrawer(props){
     return(
             <nav className={drawerClass}>
                 <ul>
-                    <li><a href="/portfolio" >About</a></li>
-                    <li><a href="/projects" >Projects</a></li>
-                    <li><a href="/contact" >Contact</a></li>   
+                    <li><a href="#portfolio" >About</a></li>
+                    <li><a href="#projects" >Projects</a></li>
+                    <li><a href="#contact" >Contact</a></li>   
                     <li><Resume/></li>             
                 </ul>
             </nav>

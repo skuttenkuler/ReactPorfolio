@@ -4,3 +4,9 @@
     top:70px
     
 }
+
+@media (max-width: 768px){
+    .resume-button {
+        display:none
+    }
+}
