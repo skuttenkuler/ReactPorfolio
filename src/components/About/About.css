@@ -50,8 +50,8 @@
 @media screen and (max-width: 768px){
     #myabout{
     background-image: url('../../assets//images/cosmos-dark.jpg');
-    height: 202%;
-    width: 150vw ;
+    height: 170vh;
+    width: 175vw ;
 }
     .headshot{
         width: 100%;
@@ -63,10 +63,12 @@
     }
     .about-header{
         margin-top: -700px;
-        margin-left: 90px;
+        margin-left: 220px;
+    }
+    .about-right{
+        margin-left: 40px;
     }
     .bio{
-        margin: 0;
         margin-top: 400px;
         width: 100%;
     }
