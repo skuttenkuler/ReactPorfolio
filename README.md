@@ -14,6 +14,7 @@ Developer Portfolio built with React
 
 # Technologies
 * [React](https://reactjs.org/)
+* [React-Router-Dom](https://reacttraining.com/react-router/web/guides/quick-start)
 * CSS
 * JSX
 * [Bootstrap](https://getbootstrap.com/)
