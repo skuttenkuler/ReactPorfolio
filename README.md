@@ -2,7 +2,7 @@
 Developer Portfolio built with React
 
 # Deployed Link
-[Portfolio](https://github.com/skuttenkuler/Portfolio3.git)
+[Portfolio](https://skuttenkuler.github.io/ReactPorfolio/)
 
 
 # Screenshot
