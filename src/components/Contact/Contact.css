@@ -1,6 +1,6 @@
 
 #contactSection {
-    background-image: url('../../assets/images/bridge.png');
+    background-image: url('../../../public/assets/images/bridge.png');
     background-size: cover;
     height: 940px;
 }
@@ -27,7 +27,7 @@
 }
 @media screen and (max-width: 768px){
     #contactSection{
-    background-image: url('../../assets/images/bridge.png');
+    background-image: url('../../../public/assets/images/bridge.png');
     height: 50%;
     width: 170vw ;
    

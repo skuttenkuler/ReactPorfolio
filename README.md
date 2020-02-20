@@ -7,10 +7,10 @@ Developer Portfolio built with React
 
 # Screenshot
 
-![Alt text](./src/assets/images/deploy1.png?raw=true "Preview")
-![Alt text](./src/assets/images/deploy2.png?raw=true "Preview")
-![Alt text](./src/assets/images/deploy3.png?raw=true "Preview")
-![Alt text](./src/assets/images/deploy4.png?raw=true "Preview")
+![Alt text](./public/assets/images/deploy1.png?raw=true "Preview")
+![Alt text](./public/assets/images/deploy2.png?raw=true "Preview")
+![Alt text](./public/assets/images/deploy3.png?raw=true "Preview")
+![Alt text](./public/assets/images/deploy4.png?raw=true "Preview")
 
 # Technologies
 * [React](https://reactjs.org/)

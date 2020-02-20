@@ -4,7 +4,6 @@ export default function About(){
     return(
         <div className="About" id="about">
             <div className="section" id="aboutSection">
-                    <div id="myabout"></div>
                         <div className="container" id="aboutcontainer">
                             <div className="row">
                                 <div className="col-md-4 col-sm-4">

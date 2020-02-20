@@ -1,6 +1,6 @@
 {
-  "homepage": "https://skuttenkuler.github.io/ReactPorfolio/",
-  "name": "portfolio",
+  "homepage": "./",
+  "name": "ReactPortfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
