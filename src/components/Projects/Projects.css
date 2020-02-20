@@ -96,7 +96,7 @@
       rgba(0, 0, 0, 0.10)
     ),
     /* bottom, image */
-    url('../../../public/assets/images/benton.png');
+    url('public/images/benton.png');
 }
 
 .work-img-2 {
@@ -107,7 +107,7 @@
     ),
     
     /* bottom, image */
-    url('../../../public/assets/images/49cbaf3b-8b47-44d2-afec-c6a7aabddf3c.png') no-repeat;
+    url('public/images/49cbaf3b-8b47-44d2-afec-c6a7aabddf3c.png') no-repeat;
    background-position: center;
 }
 
@@ -119,7 +119,7 @@
     ),
     
     /* bottom, image */
-    url('../../../public/assets/images/Screen\ Shot\ 2020-02-15\ at\ 11.07.06\ AM.png') no-repeat;
+    url('public/images/Screen\ Shot\ 2020-02-15\ at\ 11.07.06\ AM.png') no-repeat;
    background-position: center;
    background-size: cover;
 }
@@ -131,7 +131,7 @@
          rgba(0, 0, 0, 0.10)
        ),
        /* bottom, image */
-       url('../../../public/assets/images/StarSocial.png');
+       url('public/images/StarSocial.png');
 }
 .work-img-5 {
     background:
@@ -140,7 +140,7 @@
          rgba(0, 0, 0, 0.10)
        ),
        /* bottom, image */
-       url('../../../public/assets/images/Simpsons.png');
+       url('public/images/Simpsons.png');
 }
 .work-img-6 {
     background:
@@ -149,7 +149,7 @@
          rgba(0, 0, 0, 0.10)
        ),
        /* bottom, image */
-       url('../../../public/assets/images/screen.png');
+       url('public/images/screen.png');
        background-image: cover;
        padding-top: 60px;
 }
@@ -160,7 +160,7 @@
          rgba(0, 0, 0, 0.10)
        ),
        /* bottom, image */
-       url('../../../public/assets/images/assorted-title-books-on-brown-wooden-shelf-1517355.jpg');
+       url('public/images/assorted-title-books-on-brown-wooden-shelf-1517355.jpg');
       
        background-size: cover;
 }
@@ -172,7 +172,7 @@
          rgba(0, 0, 0, 0.10)
        ),
        /* bottom, image */
-       url('../../../public/assets/images/space-shuttle-launch-during-nighttime-796206.jpg');
+       url('public/images/space-shuttle-launch-during-nighttime-796206.jpg');
       
        background-size: cover;
 }
@@ -226,7 +226,7 @@
 
 @media screen and (max-width: 768px){
     .workSection{
-    background-image: url('../../../public/assets/images/sun.jpg');
+    background-image: url('public/images/sun.jpg');
     height: 150vh;
     width: 190vw ;
     margin-left:-140px;

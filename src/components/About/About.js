@@ -8,7 +8,7 @@ export default function About(){
                             <div className="row">
                                 <div className="col-md-4 col-sm-4">
                                     <div className="about-left">
-                                        <img className="headshot" src={require("../../assets/images/75-feather-1.png")} alt="headshot" ></img>
+                                        <img className="headshot" src={require("public/images/75-feather-1.png")} alt="headshot" ></img>
                                             <div className="icons" >
                                                 <div className="icon-block center clickable">
                                                     <a href="//www.github.com/skuttenkuler" >
