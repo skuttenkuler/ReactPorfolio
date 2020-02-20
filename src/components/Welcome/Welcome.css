@@ -4,8 +4,8 @@
 @import url('https://fonts.googleapis.com/css?family=Cormorant+SC:700|Inknut+Antiqua');
 @font-face {
     font-family: 'rust';
-    src: url('/public/fonts/rustico-regular.woff2') format('woff2'),
-         url('/public/fonts/rustico-regular.woff') format('woff');
+    src: url('/fonts/rustico-regular.woff2') format('woff2'),
+         url('/fonts/rustico-regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -15,7 +15,7 @@
     height:100vh;
     width: 100%;
     margin: auto;
-    background-image: url(./public/images/dark-evening.jpg);
+    background-image: url("/images/dark-evening.jpg");
     display: table;
     top: 0;
     background-size: cover;
