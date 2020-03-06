@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import {Button} from 'reactstrap';
-import * as emailjs from 'emailjs-com'
+import emailjs from 'emailjs-com'
 import './Form.css'
 
 class Form extends Component {
