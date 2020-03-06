@@ -1,54 +1,91 @@
 import React, { Component } from 'react';
+import {Button} from 'reactstrap';
+import * as emailjs from 'emailjs-com'
 import './Form.css'
 
 class Form extends Component {
-    constructor(props) {
-      super(props);
-      this.state = {
-                        name: '',
-                        email: '',
-                        message: ''
-                    };
-  
-      this.handleChange = this.handleChange.bind(this);
-      this.handleSubmit = this.handleSubmit.bind(this);
+  state = {
+    name: '',
+    email: '',
+    subject: '',
+    message: '',
+  }
+  handleFormSubmit(event){
+    event.preventDefault();
+
+    const {name, email, subject, message} = this.state
+
+    let template = {
+      from_name: email,
+      to_name: process.env.EMAIL,
+      subject: subject,
+      message_html: message,
     }
-  
-    handleChange(event) {
-      this.setState({
-            name: event.target.name,
-            email: event.target.email,
-            message: event.target.message});
-    }
-  
-    handleSubmit(event) {
-      alert('A name was submitted: ' + this.state.name + this.state.email + this.state.message);
-      event.preventDefault();
-    }
+    emailjs.send(
+      'gmail',
+      'template_H6l3Jaof',
+      template,
+      'user_O0qb3s8JllMC7ifFAiidy'
+    )
+    this.resetForm()
+  }
+
+  resetForm(){
+    this.setState({
+      name: '',
+      email: '',
+      subject: '',
+      message: '',
+    })
+  }
+  handleInputChange = (param, event) => {
+    this.setState({[param]: event.target.value})
+  }
+    
   
     render() {
       return (
         <div className="col-md-6 col-sm-6">
-        <form className="form" id="fs-frm" name="contact" onSubmit={this.handleSubmit}>
+        <form className="form" id="fs-frm" name="contact" onSubmit={this.handleFormSubmit.bind(this)}>
           <div className="form-group">
           <label for="full-name">
             Name:
-            <input type="text" value={this.state.name} onChange={this.handleChange} />
+            <input type="text"
+                    name="name" 
+                    value={this.state.name} 
+                    onChange={this.handleInputChange.bind(this, 'name')} />
           </label>
           </div>
           <div className="form-group">
           <label for="email-address">
             Email:
-            <input type="email" value={this.state.email} onChange={this.handleChange} />
+            <input type="email"
+                    name="email" 
+                    value={this.state.email} 
+                    onChange={this.handleInputChange.bind(this, 'email')} />
+          </label>
+          </div>
+          <div className="form-group">
+          <label for="subject">
+            Subject:
+            <input type="text"
+                    name="subject" 
+                    value={this.state.subject} 
+                    onChange={this.handleInputChange.bind(this, 'subject')} />
           </label>
           </div>
           <div className="form-group">
           <label for="message">
             Message:
-            <input type="text" value={this.state.message} onChange={this.handleChange} />
+            <input type="text" 
+                    name="message"
+                    value={this.state.message}
+                     onChange={this.handleInputChange.bind(this, 'message')} />
           </label>
           </div>
-          <input className="contact_form_button" type="submit" value="Submit"/>
+          <Button variant="primary" className="contact_form_button" type="submit">
+            Send
+          </Button>
         </form>
         </div>
       );

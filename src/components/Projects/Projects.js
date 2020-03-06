@@ -3,12 +3,8 @@ import React from 'react';
 import './Projects.css'
 export default function Projects(){
     return(
-        <div id="work">
-            <div className="Work">
-                <div className="section workSection">
-                    <div className="slide">
-                        <div className="myWork">
-                            <div className="work-section">
+            <div className="Work" id="work">
+                <div className="section">
                                 <ul className="work-grid">
                                     <li>
                                         <div className="work-box work-img-1">
@@ -96,9 +92,7 @@ export default function Projects(){
                                 </ul>
                             </div>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+          
+       
     )
 }

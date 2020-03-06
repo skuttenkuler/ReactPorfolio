@@ -1,14 +1,15 @@
 import React from 'react';
 import './About.css'
+
+
 export default function About(){
     return(
         <div className="About" id="about">
-            <div className="section" id="aboutSection">
                         <div className="container" id="aboutcontainer">
                             <div className="row">
                                 <div className="col-md-4 col-sm-4">
                                     <div className="about-left">
-                                        <img className="headshot" src="../../assets/images/75-feather-1.png" alt="headshot" ></img>
+                                        <img className="headshot" src={require("../../assets/images/headshot.png")} alt="headshot" ></img>
                                             <div className="icons" >
                                                 <div className="icon-block center clickable">
                                                     <a href="//www.github.com/skuttenkuler" >
@@ -26,8 +27,6 @@ export default function About(){
                                                             <span className="screen-reader-text"></span>
                                                         </i>
                                                     </a>
-                                                   
-                               
                                                 </div>
                                             </div>
                                         </div>
@@ -35,8 +34,8 @@ export default function About(){
                                     <div className="col-md-4 col-sm-2">
                                         <div className="about-right">
                                             <div className="about-header">
-                                            <h1>Software</h1>
-                                            <h1 className="engineer-text">Engineer</h1>
+                                                <h1>Software</h1>
+                                                <h1 className="engineer-text">Engineer</h1>
                                             </div>
                                             <div className="bio">
                                                 <p> Full Stack Web Developer with a Bachelor’s in Music that brings a 
@@ -56,6 +55,7 @@ export default function About(){
                                 </div>
                             </div>
                         </div>
-                    </div>
+                  
+                        
     )
 }
