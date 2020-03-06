@@ -8,6 +8,13 @@
     backdrop-filter: blur(8px);
     -webkit-backdrop-filter: blur(8px);
 }
+.form-group{
+    display: flex;
+    justify-content: center;
+}
+.form-group input{
+    border-radius: 5px;
+}
 .contact-right{
     margin-top:250px;
     
@@ -26,11 +33,8 @@ label{
     margin-left: 200px;
     font-size: 150%;
     border-radius: 25PX;
-    color: #4d4dff;
-}
-.cbutton {
-    color: #4d4dff;
-    border-radius: 25px;
+    color: white;
+    background: rgba(128, 128, 128, 0.739);
 }
 
 @media screen and (max-width: 768px){

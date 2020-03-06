@@ -50,37 +50,45 @@ class Form extends Component {
           <div className="form-group">
           <label for="full-name">
             Name:
+            <br></br>
             <input type="text"
                     name="name" 
                     value={this.state.name} 
-                    onChange={this.handleInputChange.bind(this, 'name')} />
+                    onChange={this.handleInputChange.bind(this, 'name')}
+                    placeholder="Name..." />
           </label>
           </div>
           <div className="form-group">
           <label for="email-address">
             Email:
+            <br></br>
             <input type="email"
                     name="email" 
                     value={this.state.email} 
-                    onChange={this.handleInputChange.bind(this, 'email')} />
+                    onChange={this.handleInputChange.bind(this, 'email')}
+                    placeholder="Email..." />
           </label>
           </div>
           <div className="form-group">
           <label for="subject">
             Subject:
+            <br></br>
             <input type="text"
                     name="subject" 
                     value={this.state.subject} 
-                    onChange={this.handleInputChange.bind(this, 'subject')} />
+                    onChange={this.handleInputChange.bind(this, 'subject')}
+                    placeholder="Subject..." />
           </label>
           </div>
           <div className="form-group">
           <label for="message">
             Message:
+            <br></br>
             <input type="text" 
                     name="message"
                     value={this.state.message}
-                     onChange={this.handleInputChange.bind(this, 'message')} />
+                     onChange={this.handleInputChange.bind(this, 'message')}
+                     placeholder="Message..." />
           </label>
           </div>
           <Button variant="primary" className="contact_form_button" type="submit">

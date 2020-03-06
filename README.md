@@ -5,18 +5,17 @@ Developer Portfolio built with React
 [Portfolio](https://skuttenkuler.github.io/ReactPorfolio/)
 
 
-# Screenshot
+# Visual
 
-![Alt text](./public/images/deploy1.png?raw=true "Preview")
-![Alt text](./public/images/deploy2.png?raw=true "Preview")
-![Alt text](./public/images/deploy3.png?raw=true "Preview")
-![Alt text](./public/images/deploy4.png?raw=true "Preview")
+![Alt text](./src/assets/images/portfolio.gif?raw=true "Preview")
+
 
 # Technologies
 * [React](https://reactjs.org/)
-* [React-Router-Dom](https://reacttraining.com/react-router/web/guides/quick-start)
+* [React-Router](https://reacttraining.com/react-router/web/guides/quick-start)
 * CSS
 * JSX
+* [Emailjs](https://www.emailjs.com/)
 * [Bootstrap](https://getbootstrap.com/)
 
 

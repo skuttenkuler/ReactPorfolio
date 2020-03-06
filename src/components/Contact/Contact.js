@@ -1,6 +1,5 @@
 import React from 'react';
 import Form from './Form/Form'
-import Footer from '../Footer/Footer'
 import './Contact.css'
 export default function Contact(){
     return(
@@ -12,7 +11,7 @@ export default function Contact(){
                             <div className="contact-left">
                                 <h1>Thank you for visiting!</h1>
                                 <p>If you wish to contact me,</p>
-                                <p>please fill out this form!</p>
+                                <p>please fill out this contact form!</p>
                                 <p></p>
                                 <p> - Cheers!</p>
                             </div>
@@ -26,7 +25,9 @@ export default function Contact(){
                         </div>
                     </div>
                 </div>
-            <Footer/>
+            <div className="footer">
+                <p className="footer-text">Copyright © 2018</p>
+            </div>
         </div>
     </div>
 )
