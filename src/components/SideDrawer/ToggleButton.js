@@ -9,5 +9,5 @@ const ToggleButton = props => (
             <div className="line"/>
             <div className="line"/>
         </button>
-    )
+    );
 export default ToggleButton

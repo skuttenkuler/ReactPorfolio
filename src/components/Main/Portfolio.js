@@ -8,27 +8,31 @@ import Backdrop from '../Backdrop/Backdrop'
 
 class Portfolio extends Component{
     state = {
-        sideDrawer: false
-    }
-    toggleHandler = () => {
-        console.log("clicked")
+        sideDrawerOpen: false,
+      };
+      drawerToggleClickHandler = () => {
         this.setState(prevState => {
-            return {sideDrawer: !prevState.sideDrawer}
+          return { sideDrawerOpen: !prevState.sideDrawerOpen }
         })
-    };
-    backdropHandler = () => {
-        this.setState({sideDrawer: false});
-    }
-    render(){
-        let backD;
-        if(this.state.sideDrawer){
-            backD = <Backdrop click={this.backdropHandler}/>;
-        }
+      }
+    
+      backdropClickHandler = () => {
+        this.setState({ sideDrawerOpen: false })
+      }
+    
+    
+      render() {
+        let backdrop;
+    
+        if (this.state.sideDrawerOpen) {
+        backdrop = <Backdrop click={this.backdropClickHandler}/>;
+    
+         }
     return(
         <div style={{height: "100%"}}>
-        <Navbar toggleHandler={this.drawerClick}/>
-        <SideDrawer show={this.state.sideDrawer}/>
-        {backD}
+        <Navbar drawerToggleClickHandler={this.drawerToggleClickHandler}/>
+        <SideDrawer show={this.state.sideDrawerOpen}/>
+        {backdrop}
              <About/>
              <Projects/>
              <Contact/>

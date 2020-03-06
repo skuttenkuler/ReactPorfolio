@@ -4,12 +4,13 @@ import './Navbar.css'
 import ToggleButton from '../SideDrawer/ToggleButton'
 import './Navbar.css'
 import Resume from '../PDF/pdfButton'
+
 const Navbar = (props) => (
 
         <header>
             <nav className="navbar" >
                 <div className="toggle-btn">
-                    <ToggleButton click={props.drawerClick}/>
+                    <ToggleButton click={props.drawerToggleClickHandler}/>
                 </div>
                 <ul className="nav navbar-nnav">
                     <li><a href="#about" className="menu-links" >About</a></li>

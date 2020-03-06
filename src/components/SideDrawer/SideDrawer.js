@@ -2,13 +2,13 @@ import React from 'react';
 import Resume from '../PDF/pdfButton'
 import './SideDrawer.css'
 
-export default function SideDrawer(props){
-    let drawerClass = 'side-drawer';
+const SideDrawer = props => {
+    let drawerClasses = 'side-drawer';
     if(props.show){
-        drawerClass ='side-drawer open'
+        drawerClasses ='side-drawer open'
     }
     return(
-            <nav className={drawerClass}>
+            <nav className={drawerClasses}>
                 <ul>
                     <li><a href="#portfolio" >About</a></li>
                     <li><a href="#projects" >Projects</a></li>
@@ -18,3 +18,4 @@ export default function SideDrawer(props){
             </nav>
     )
 }
+export default SideDrawer
