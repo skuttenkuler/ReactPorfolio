@@ -18,10 +18,10 @@ export default function Projects(){
                                     </li>
                                     <li>
                                         <div className="work-box work-img-2">
-                                            <a href="//github.com/skuttenkuler/Flight-Plan/">
+                                            <a href="//immense-beyond-39985.herokuapp.com">
                                                 <div className="work-info">
-                                                    <h3>Flight Plan</h3>
-                                                    <button><a href="//github.com/skuttenkuler/Flight-Plan/">Code</a></button>
+                                                    <h3>SpaceX App</h3>
+                                                    <button><a href="//github.com/skuttenkuler/SpaceX">Code</a></button>
                                                 </div>
                                             </a>
                                         </div>
@@ -71,20 +71,20 @@ export default function Projects(){
                                     </li>
                                     <li>
                                         <div className="work-box work-img-7">
-                                            <a href="//skuttenkuler.github.io/Gorillaz-Clicky-Game/">
+                                            <a href="//still-earth-60188.herokuapp.com/">
                                                 <div className="work-info">
                                                     <h3>Book Store</h3>
-                                                    <button><a href="//github.com/skuttenkuler/Gorillaz-Clicky-Game">Code</a></button>
+                                                    <button><a href="//github.com/skuttenkuler/Book-Store">Code</a></button>
                                                 </div>
                                             </a>
                                         </div>
                                     </li>
                                     <li>
                                         <div className="work-box work-img-8">
-                                            <a href="//skuttenkuler.github.io/Gorillaz-Clicky-Game/">
+                                            <a href="//github.com/skuttenkuler/Flight-Plan/">
                                                 <div className="work-info">
-                                                    <h3>SpaceX App</h3>
-                                                    <button><a href="//github.com/skuttenkuler/Gorillaz-Clicky-Game">Code</a></button>
+                                                    <h3>Flight Plan</h3>
+                                                    <button><a href="//github.com/skuttenkuler/Flight-Plan/">Code</a></button>
                                                 </div>
                                             </a>
                                         </div>
