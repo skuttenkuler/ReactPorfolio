@@ -38,7 +38,7 @@ export default function Projects(){
                                     </li>
                                     <li>
                                         <div className="work-box work-img-4">
-                                            <a href="//kuttenks.pythonanywhere.com">
+                                            <a href="//samkuttenk2.pythonanywhere.com/">
                                                 <div className="work-info">
                                                     <h3>Star Social</h3>
                                                     <button><a href="//www.github.com/skuttenkuler/StarSocial/" >Code</a></button>
